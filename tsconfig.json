@@ -7,7 +7,8 @@
 
 		// Environment Settings
 		// See also https://aka.ms/tsconfig/module
-		"module": "nodenext",
+		"module": "esnext",
+		"moduleResolution": "bundler",
 		"target": "esnext",
 		"types": [],
 		// For nodejs:
@@ -42,7 +43,6 @@
 		"skipLibCheck": true,
 
 		// React-specific settings
-		"moduleResolution": "nodenext",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"paths": {
